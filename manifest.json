@@ -1,0 +1,10 @@
+{
+    "manifest_version": 3,
+    "name": "Alembic Capture",
+    "version": "0.1.0",
+    "description": "Capture selected text and distill it in Alembic",
+    "permissions": ["contextMenus", "tabs"],
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
